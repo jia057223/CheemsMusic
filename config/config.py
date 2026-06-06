@@ -15,13 +15,14 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID=3430669 # get this value from my.telegram.org
-API_HASH="87f99d86b7709f2692175d4d9ad1a5be" # get this value from my.telegram.org
-BOT_TOKEN="5698913565:AAHx70OwOrtRyTMFXdrnN6pfUue9sLpMTHM" # get this value from @Botfather
-MONGO_DB_URI="mongodb+srv://Blackshinigaami:Anonymous99@cluster0.aiufg.mongodb.net/?retryWrites=true&w=majority" # get this value from mongodb.com
-LOG_GROUP_ID=-1001280854480 # get this value from in your log group 
-MUSIC_BOT_NAME="Cheems" # your music bot name 
-STRING_SESSION="BQBwpsFGCT7subiO87gbqhOTtaJSOeVGU8W2YaaNrP67bUCx3bPVrfqiChIuYPhdG7mJhg6zDiI8lDunKcpVntMUPHiBu-LPWIVrLJhgMmJaQUE2toIqhkDxwOuoQk-x_3PVRAOeWpQJNVRQhTEhkZlMMrtLM-DXNQ9lHKptGfrm8-nMyF0zzuSHGv9hYU50S4nA8Mo7SpSlqaBtoPzw7tcPZK9JvkU7pnJf4Jr5hiH1166ssUKGqzNfE3_7Y6uf62j1Nazhn4K5luEUB12qB_XYKore24RwO08Gb9HQ6S2ScJ5tXeinrLxYt_SrQtRctwBOJnYMiwOTfcSbxvCnQtL_Wi0P6AA"
+API_ID= 31618924# get this value from my.telegram.org
+API_HASH="8875699155:AAFlVd1-3idbLr5R2-mqee7KihmV1GBc-Nc" # get this value from my.telegram.org
+BOT_TOKEN="8648019816:AAH6jNO3ApXLVVSr6rNaN1En_7egy4s3VYg" # get this value from @Botfather
+MONGO_DB_URI="mongodb+srv://rajbot:sumit844101@cluster0.niffpyl.mongodb.net/?appName=Cluster0" # get this value from mongodb.com
+LOG_GROUP_ID=-1003960140108
+ # get this value from in your log group 
+MUSIC_BOT_NAME="⎯꯭‌𝅃꯭᳚🌸 ⃝⍣🅚𝗵𝘂𝘀𝗵𝗶 ❘꯭𝄄꯭🌷🅑𝗮꯭𝗯‌‌𝆪𝆭𝝲꯭𝅥‌⍣❘꯭𝄄꯭𓄻 𝅦𝅦𝆭 ᵐᵘˢⁱᶜ" # your music bot name 
+STRING_SESSION="BQEc8iAAEhhfAXr7n7Xqq_VCBIxzlaF9vhhB6b5vYf8w-o-xsvhOewwze9EasLbYgcCRCupDjGH5vzwTM_OycIRC43OJQTiO4m3Sr5Nwu_aQjZjEj7YxbpoQhXnU60npWqMRTYQDGsiRVLdmCrkfNisB64aRx9fuhMonf3wDX1ZXWfrodvx8wLQmm6eVkpbzPqCpOUCR54C2DVZBYXqUcxzAIOV38hamWLQ8OApBT0KW5Gcue6HBd4fPx780f-Fcsi11TDLMIygugVOZvWB5hSCd0yHZsK_If8u6cPhAw5Bkzx5vfGbHqQvDjSdEzDqVLW3mMhL51R4RfUR-pt7KGvDy9goWIAAAAAFx9uEuAA"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
